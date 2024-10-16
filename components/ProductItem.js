@@ -22,7 +22,7 @@ const ProductItem = ({ product }) => {
       {/* Display product name */}
       <Text>{product.name}</Text>
       {/* Display product price with KWD currency symbol */}
-      <Text>{product.price + ".00"} KWD</Text>
+      <Text>{parseInt(product.price).toFixed(2)} KWD</Text>
     </TouchableOpacity>
   );
 };

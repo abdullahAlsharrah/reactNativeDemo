@@ -20,7 +20,7 @@ const CategoriesList = () => {
   return (
     // Horizontal ScrollView to display categories in a row
     <ScrollView horizontal={true}>
-      <View style={styles.list}>{list}</View>{" "}
+      <View style={styles.list}>{list}</View>
       {/* Render the list of categories */}
     </ScrollView>
   );

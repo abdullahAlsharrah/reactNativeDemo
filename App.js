@@ -14,10 +14,10 @@ export default function App() {
       {/* QueryClientProvider wraps the app, making React Query available throughout the app */}
       <QueryClientProvider client={queryClient}>
         {/* SafeAreaView ensures the app avoids areas like the status bar or notches */}
-        <SafeAreaView style={{ flex: 1 }}>
-          {/* MainTab is used here to display bottom tab navigation */}
-          <MainTab />
-        </SafeAreaView>
+        {/* <SafeAreaView style={{ flex: 1 }}> */}
+        {/* MainTab is used here to display bottom tab navigation */}
+        <MainTab />
+        {/* </SafeAreaView> */}
       </QueryClientProvider>
     </NavigationContainer>
   );

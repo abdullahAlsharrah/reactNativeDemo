@@ -34,8 +34,8 @@ const Home = () => {
         </TouchableOpacity>
       </View>
       {/* Display categories and products */}
-      <CategoriesList /> {/* Displays the list of categories */}
-      <ProductList /> {/* Displays the list of products */}
+      <CategoriesList />
+      <ProductList />
     </View>
   );
 };
